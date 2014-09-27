@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.requires_arc = false
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'Pod/Classes/**/*'
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   

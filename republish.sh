@@ -1,7 +1,9 @@
 #!/usr/local/bin/zsh
 
+VERSION=0.1.1
+
 git commit -am "some changes"
-git tag -d 0.1.0
+git tag -d $VERSION
 git push origin
-git tag -a 0.1.0 -m '0.1.0'
-git push -f origin 0.1.0
+git tag -a $VERSION -m '$VERSION'
+git push -f origin $VERSION

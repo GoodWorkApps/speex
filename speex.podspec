@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "speex"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "headers for speex."
   s.description      = <<-DESC
   Header files for speex so dpubango pod will compile
@@ -26,9 +26,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/include/**/*.h'
   
-  s.header_mappings_dir = 'include'
+  s.header_mappings_dir = 'Pod/Classes/include'
+  
   s.xcconfig = {
         'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Classes/include"'
   }  # s.frameworks = 'UIKit', 'MapKit'

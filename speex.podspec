@@ -12,10 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "headers for speex."
   s.description      = <<-DESC
-                       An optional longer description of speex
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+  Header files for speex so dpubango pod will compile
                        DESC
   s.homepage         = "https://github.com/goodworkapps/speex"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
